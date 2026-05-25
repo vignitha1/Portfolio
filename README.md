@@ -31,3 +31,13 @@ A React project demonstrating reusable components and dynamic rendering using Pr
 * React.js
 * JavaScript
 * CSS3
+
+## How to Run
+1. Navigate to the project folder
+cd dynamic-react
+2. Install dependencies
+npm install
+3. Start the development server
+npm run dev
+4. Open the local URL shown in the terminal (usually `http://localhost:5173` or `http://localhost:5174`) in your browser.
+
