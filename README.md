@@ -1,8 +1,12 @@
 ## Name:
 Vignitha Katthulwar
 
-# 1.Personal Portfolio Website
+## 1.Personal Portfolio Website
 A responsive personal portfolio website built using HTML, CSS, and JavaScript.
+## Files
+  index.html
+  script.js
+  style.css
 ## Features
 * About Me Section
 * Education Section
@@ -14,8 +18,15 @@ A responsive personal portfolio website built using HTML, CSS, and JavaScript.
 * CSS3
 * JavaScript
 
-# 2.React Components Practice
+## 2.React Components Practice
 A React project demonstrating reusable components and dynamic rendering using Props and State.
+## Files
+ button.jsx
+ card.jsx
+ footer.jsx
+ form.jsx
+ Header.jsx
+ app.jsx
 ## Components
 * Header
 * Footer
