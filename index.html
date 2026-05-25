@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="logo">VK<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-btns">
+            <button id="theme-toggle" class="btn-icon"><i class="fas fa-moon"></i></button>
+            <div class="hamburger"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero section">
+        <div class="hero-content reveal">
+            <div class="hero-text">
+                <h3>Hello, I'm</h3>
+                <h1>Vignitha Katthulwar</h1>
+                <p class="designation">Full Stack Developer & UI/UX Designer</p>
+                <p class="short-intro">Creating seamless digital experiences with modern technology and elegant design.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="#" class="btn btn-outline">Download Resume</a>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="img-box glass">
+                   
+                    <img src="me2.png" alt="Profile Image">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title reveal">About <span>Me</span></h2>
+        <div class="about-container reveal">
+            <div class="about-info">
+                <p>I am a Computer Science student with a strong interest in Web Development, AI, and Machine Learning.
+                  I enjoy creating user-friendly applications and working on real-world projects that solve practical problems.
+                  I am continuously improving my skills through coding, internships, and hands-on learning experiences.</p>
+                <div class="interests">
+                    <div class="interest-item"><i class="fas fa-code"></i> Coding</div>
+                    <div class="interest-item"><i class="fas fa-palette"></i> Design</div>
+                    <div class="interest-item"><i class="fas fa-gamepad"></i> Gaming</div>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="skill-card">
+                    <div class="skill-info"><span>HTML/CSS</span><span>95%</span></div>
+                    <div class="progress-line"><span style="width: 95%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-info"><span>React.js</span><span>85%</span></div>
+                    <div class="progress-line"><span style="width: 85%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-info"><span>Node.js</span><span>80%</span></div>
+                    <div class="progress-line"><span style="width: 80%;"></span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section grey-bg">
+        <h2 class="section-title reveal">Education</h2>
+        <div class="timeline reveal">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass">
+                    <span class="year">2023 - 2027</span>
+                    <h4>B.Tech in Computer Science</h4>
+                    <p>Stanley College of Engineering and Technology for Women</p>
+                    <small>GPA:8.5/10</small>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass">
+                    <span class="year">2011-2021</span>
+                    <h4>Higher Secondary Education</h4>
+                    <p>Vashishta junior college</p>
+                    <small>Major in Mathematics & Physics</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title reveal">My <span>Projects</span></h2>
+        <div class="project-grid reveal">
+            <!-- Project 1 -->
+            <div class="project-card glass">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=400" alt="Project 1">
+                </div>
+                <div class="project-content">
+                    <div class="tech-stack">
+                        <span class="badge">React</span>
+                        <span class="badge">Firebase</span>
+                    </div>
+                    <h3>E-Commerce Dashboard</h3>
+                    <p>A full-scale analytics dashboard with real-time data visualization</p>
+                    <div class="project-links">
+                        <a href="#" class="btn-sm"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="btn-sm"><i class="fas fa-external-link-alt"></i> Live</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card glass">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=400" alt="Project 2">
+                </div>
+                <div class="project-content">
+                    <div class="tech-stack">
+                        <span class="badge">Node.js</span>
+                        <span class="badge">MongoDB</span>
+                    </div>
+                    <h3>To-Do List App</h3>
+                    <p>note-taking app so tasks or notes are saved and retrieved using localStorage</p>
+                    <div class="project-links">
+                        <a href="#" class="btn-sm"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="btn-sm"><i class="fas fa-external-link-alt"></i> Live</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <h2 class="section-title reveal">Get In <span>Touch</span></h2>
+        <div class="contact-container reveal">
+            <div class="contact-details">
+                <div class="contact-card glass">
+                    <i class="fas fa-envelope"></i>
+                    <p>hello@johndoe.com</p>
+                </div>
+                <div class="contact-card glass">
+                    <i class="fas fa-phone"></i>
+                    <p>+1 234 567 890</p>
+                </div>
+            </div>
+            <form id="contact-form" class="glass">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+        </div>
+        <p>&copy; 2024 John Doe. Designed with <i class="fas fa-heart"></i></p>
+        <div class="footer-social">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
